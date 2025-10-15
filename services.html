@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Layanan | LuTech iD</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@600;700&family=Roboto&display=swap" rel="stylesheet">
+
+<style>
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #0F1724;
+  color: #F7FAFC;
+}
+header {
+  background-color: #0B3D91;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 40px;
+}
+header img {
+  height: 50px;
+}
+nav a {
+  color: #F7FAFC;
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+nav a:hover {
+  color: #00C2D1;
+}
+footer {
+  text-align: center;
+  padding: 30px;
+  background-color: #0B3D91;
+  font-size: 0.9em;
+  margin-top: 60px;
+}
+h1, h2, h3 {
+  font-family: 'Inter', sans-serif;
+  color: #00C2D1;
+}
+.container {
+  max-width: 1000px;
+  margin: 80px auto;
+  padding: 0 20px;
+}
+a.button {
+  display: inline-block;
+  background-color: #FF4DA6;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+}
+a.button:hover {
+  background-color: #00C2D1;
+}
+</style>
+
+<style>
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 40px;
+}
+.service {
+  background-color: #0B3D91;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+.service h3 {
+  color: #FF4DA6;
+}
+</style>
+</head>
+<body>
+
+<header>
+  <img src="LuTechiD.png" alt="LuTech iD Logo">
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="services.html">Services</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<section class="container">
+  <h1>Layanan Kami</h1>
+  <div class="services-grid">
+    <div class="service">
+      <h3>Pengembangan Web</h3>
+      <p>Membangun website responsif dan profesional untuk bisnis Anda dengan teknologi terkini.</p>
+    </div>
+    <div class="service">
+      <h3>Aplikasi Mobile</h3>
+      <p>Layanan pengembangan aplikasi Android & iOS dengan performa tinggi dan desain menarik.</p>
+    </div>
+    <div class="service">
+      <h3>Konsultasi IT</h3>
+      <p>Memberikan solusi IT strategis untuk membantu perusahaan Anda berkembang secara digital.</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  © 2025 LuTech iD. All rights reserved.
+</footer>
+
+</body>
+</html>
